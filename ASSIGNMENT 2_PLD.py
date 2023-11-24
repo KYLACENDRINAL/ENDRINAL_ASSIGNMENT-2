@@ -137,7 +137,7 @@ class QuestionnaireApp:
             self.tabControl.select(current_tab - 1)
 
     def validate_answers(self, tab_index):
-        # You can add validation logic here for each tab
+    
         return True
 
     def clear_form(self):
@@ -147,7 +147,6 @@ class QuestionnaireApp:
             var.set("")
 
     def enter_pressed(self, event):
-        # Handle Enter key press events, you can implement logic if needed
         pass
 
     def on_closing(self):
